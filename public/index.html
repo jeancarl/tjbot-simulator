@@ -133,7 +133,7 @@ tj.analyzeTone(text).then(response => {
   console.log(response);
 });</pre>
 
-      <h3><code>converse(workspaceId, text, )</code></h3>
+      <h3><code>converse(workspaceId, text, response => {...})</code></h3>
       <p>Process the natural language input using Watson Conversation</p>
       <pre class="insert">var tj = new TJBot([], {
   robot: {
@@ -273,7 +273,7 @@ tj.translate("Hello", "en", "fr")
       <pre class="insert">var tj = new TJBot(["servo"], {}, {});
 tj.wave();</pre>
     </div>
-  </div>  
+  </div>
   </div>
 </div>
 

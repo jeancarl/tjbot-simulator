@@ -24,19 +24,25 @@ This simulator can be run locally by cloning and running the Node.js application
     git clone https://github.com/jeancarl/tjbot-simulator
     ```
 
-2. Install the NPM dependencies
+2. Change into the directory tjbot-simulator
+
+    ```
+    cd tjbot-simulator
+    ```
+    
+3. Install the NPM dependencies
     
     ```
     npm install
     ```
 
-3. Run the Node.js application
+4. Run the Node.js application
     
     ```
     npm start
     ```
 
-4. Access the application URL
+5. Access the application URL
     
     ```
     http://localhost:<PORT>
