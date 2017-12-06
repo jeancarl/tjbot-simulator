@@ -1,0 +1,25 @@
+{
+  "name": "tjbot-simulator-nodejs",
+  "version": "0.1.0",
+  "description": "Web-based TJBot Node.js simulator",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeancarl/tjbot-simulator-nodejs.git"
+  },
+  "author": "JeanCarl Bisson <jbisson@us.ibm.com> (http://jeancarlbisson.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "cfenv": "^1.0.4",
+    "express": "^4.15.4",
+    "watson-developer-cloud": "^2.42.0"
+  }
+}

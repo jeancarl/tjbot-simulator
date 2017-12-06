@@ -1,0 +1,51 @@
+#log {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+#log div {
+  border-top: 1px solid #C0C0C0;
+}
+.nav-tabs > li {
+  position: relative;
+}
+.nav-tabs > li > a {
+    display: inline-block;
+}
+.nav-tabs > li > span {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    color: red;
+}
+.nav-tabs > li:hover > span {
+    display: inline-block;
+}
+
+.tab-pane {
+  height: 90%;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.CodeMirror {
+  float: left;
+  width: 100%;
+  height: 85%;
+  border: 1px solid #C0C0C0;
+  margin-top: 10px;
+}
+
+#tjbot svg {
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+pre.response {
+  font-size: 8pt;
+}

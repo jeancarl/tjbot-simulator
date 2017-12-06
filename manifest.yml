@@ -1,0 +1,5 @@
+---
+applications:
+- name: tjbot-simulator
+  host: tjbot-simulator
+  memory: 512M
