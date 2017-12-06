@@ -1,5 +1,5 @@
 ---
 applications:
 - name: tjbot-simulator
-  host: tjbot-simulator
+  host: tjbot-simulator-${random-word}
   memory: 512M
